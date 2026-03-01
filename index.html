@@ -40,8 +40,8 @@
             height: 100%;
             overflow: hidden;
             background-color: #F3F4F6;
-            -webkit-user-select: none;
-            user-select: none;
+
+            /* [버그 해결] 여기에 있던 -webkit-user-select: none; 과 user-select: none; 을 삭제했습니다! */
 
             /* 🌟 [한글 깨짐 해결] Skia 엔진이 캔버스를 그릴 때 한글 폰트를 기본으로 사용하도록 강제 지정 */
             font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
